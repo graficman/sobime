@@ -1,0 +1,1674 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Cuprum);
+
+body {
+
+	background-color: white;
+	
+	text-align: left;
+	color: #6c6c6c;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: 'Cuprum', Arial;
+	font-size: 12px;
+	
+	
+}
+
+.mi-cursor {
+    cursor: url("http://sobime.net/imatges/icines/mycursor.png");
+}
+
+table, tr, td{
+	font-family: 'Cuprum', Arial;
+	color: #999999;
+	font-size: 12px;
+	border: 0px;
+	cellspacing: 0;
+	cellpadding:0;
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+
+td.linia_fila, td.linia_nou, td.linia_canvi, td.linia_fila_cap {
+	border: 1px #b3b3b3 solid;	
+	height: 35px;
+	font-size: 12px;
+	color: #333;
+	background: #f2f2f2;
+	text-align: center;
+}
+
+td.linia_nou {
+	background: #FFCCCC;
+}
+
+td.linia_canvi {
+	background: #CCCCFF;
+}
+
+td.linia_fila_cap {
+	background: #ccc;
+	height: 60px;
+}
+
+td.filet {
+	border: 1px #000 solid;
+
+	
+	}
+
+
+div.filet {
+	
+	padding-right: -20px;
+	padding-left: -20px;
+	border: 1px #000 solid;
+	width: 99%;
+	
+}
+
+
+div.galeria2Cols tr:hover td {
+	
+	background-color: #ccc;
+}
+
+div.edit{
+	position: fixed;
+	width: 40px;
+	right: 0px;
+	top: 50%;
+	z-index: 200;
+}
+
+div.1de3 {
+	float: left;
+	width: 200px;
+}
+
+
+/*********** estils submenu2 menu amb imatges ********************/
+div.menu2 {
+
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	text-align: left;
+	padding-left: 20px;
+	
+}
+
+div.menu2ima {
+	width: 75%;	
+	text-align: left;
+	float: right;
+}
+
+
+div.sub2 {
+	background-color: #dedede;
+	padding: 20px;
+	margin-bottom: 1px;
+	color: black;
+	margin-right: 10px;
+	cursor: pointer;
+	
+	
+}
+
+img.imasub2 {
+	float: right;
+	
+}
+
+img.imasub2_act {
+	transform: rotate(90deg);
+	float: right;
+	-webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+	-webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -o-transition:  transform 1s;
+    transition: transform 1s;
+}
+
+div.sub2sub {
+	
+	margin-right: 10px;
+	display: none;
+	
+
+}
+
+div.sub2sub_act {	
+	
+	margin-right: 10px;
+
+	display:none;
+	
+}
+
+
+
+div.titol {
+	font-size: 26px;
+	font-weight: normal;
+	color: ac033a;
+	text-transform: capitalize;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+/*********************/
+
+p {
+	margin:0px; padding:0px;
+}
+
+div.captot{
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+	z-index: 200;
+	border-bottom: 2px solid #a00000;
+		
+	
+}
+
+div.breulogo {
+float:left; padding-left: 50px; position: absolute; bottom: 5px;
+}
+
+div.breumapa {
+	display: none;	
+}
+
+
+div.item_1 {
+	width: 156px;
+	overflow: hidden;
+	
+	border-top: 1px solid;
+		
+}
+
+div.item_2{
+	width: 342px;
+	overflow: hidden;
+	
+	border-top: 1px solid;
+}
+
+div.item_3{
+	width: 528px;
+	overflow: hidden;
+	
+	border-top: 1px solid;
+}
+
+div.item_123{
+	font-size:26px;
+}
+
+div.item_123resum{
+	font-size:16px;
+}
+
+div.home_item_overflow {
+	float: right;
+	margin-right: 5px;
+}
+
+div.home_item img {
+	width: 100%;
+	
+}
+
+div.home_item , a.black {
+	_float: left;
+
+}
+
+
+div.asub {
+	border-bottom: 1px solid #ddd;
+	min-height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+
+div.asub:hover {
+	background: #ccc;
+}
+
+
+/* enllaços per defecte */
+a {
+	text-decoration: none;
+	color: #808080;
+	transition: color 1s;
+	cursor: pointer;
+}
+a:hover, .asub:hover a {
+	color: #AB2224;
+}
+
+/* imatges per defecte */
+img {
+	border: 0px;
+}
+/* --------------------------------------------- 	DIVS ESTRUCTURA */
+div.ombra {
+	background-image:  url(/imatges/fons/ombra.gif);
+	background-position: top;
+	background-repeat: repeat-x;
+	height: 14px;
+	width: 100%;
+}
+
+div.ombra_submenu2 {
+	background-image:  url(/imatges/fons/ombra.gif);
+	background-position: top;
+	background-repeat: repeat-x;
+	height: 14px;
+	width: 324px;
+}
+
+div.capmapa {
+	text-align: left;
+	padding-left: 14px;
+	padding-right: 14px;
+	height: 14px;
+	color: white;
+}
+
+/******* div que agafa el contingut *******/
+div.pagina {
+	
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	width: 1200px;
+}
+
+div.dins {
+	margin: 10px;
+}
+
+/********* div de capcelera ********/
+div.cap {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	margin:14px;
+
+	background-repeat: no-repeat;
+	text-align: left;
+	overflow: hidden;
+}
+
+.capmapa {
+	background-color: #009ee0;
+}
+
+div.botons {
+	float:	right;
+	padding-left: 4px;
+	padding-right: 4px;
+	
+	
+    margin-right: 30px;
+}
+
+
+
+
+div.cuadrat {
+	float: left;
+	width: 160px;
+	min-height: 160px;
+	background-color: #47C7C3;
+
+	margin: 20px;
+	
+}
+
+div.cuadratno {
+	float: left;
+	background-color: #47C7C3;
+	
+	margin: 20px;
+}
+
+div.dinscuadrat {
+	float: left;
+	width: 160px;
+	height: 160px;
+	background-color: #47C7C3;
+	z-index: 1;
+	position:absolute;
+	
+}
+
+
+
+div.menu a {
+	font-size:16px;
+	color: black;
+}
+
+div.menu a:hover {
+	color: white
+}
+
+img#logo {
+	float: left;
+}
+
+img.c {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 2px;
+	margin-right: 2px;
+	
+	width: 34px; 
+	height: 34px; 
+	overflow: hidden;
+	border: 0px;
+}
+
+img#primerc {
+	margin: 0px;
+	margin-left: 0px;
+	margin-right: 2px;
+	border: 0px;
+	cursor: pointer;
+}
+
+img#primercc, img#telf {
+	display: none;
+}
+
+img#ultimc {
+	margin: 0px;
+	margin-left: 2px;
+	margin-right: 0px;
+	border: 0px;
+	cursor: pointer;
+}
+
+
+
+div.textcuadrat {
+	background-color: white;
+	color: #505050;
+	margin-bottom: 0px;
+	margin-top: 160px;
+
+	
+}
+
+
+div.cuadrat a {
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #47C7C3;
+}
+
+
+div.itemmenu {
+	padding: 10px;
+	opacity: 1;
+    filter: alpha(opacity=100);
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition:all 1s ease;
+	color: black;
+	font-size:18px;
+	
+}
+
+div.itemmenu:hover {
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+	background-color:#b5b5b5;
+}
+
+
+div.menu {
+	width: 230px;
+	right: 32px;
+	z-index: 10000;
+	position:absolute;
+	padding: 10px;
+	min-height: 100px;
+	color: black;
+	font-size:18px;
+	margin-top: 2px;
+	
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #fff;
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=8U0);
+	
+}
+
+
+
+div.capboto {
+	float: left;
+	width: 160px;
+	height: 160px;
+	
+	margin: 20px;
+	
+}
+
+
+div.cos {
+
+	width: 100%;
+	margin: 0px;
+	margin-top: 0px;
+	text-align: left;
+	overflow: hidden;
+}
+
+
+
+div.content {
+	margin-left: 0px; 
+	margin-right: 20px;	
+	text-align: left;
+}
+
+div.content2 {
+
+	padding-top:10px;	
+	text-align: left;
+}
+
+div.peu {
+	width: 100%;
+	overflow: hidden;
+	background:	#444;
+	
+
+	
+}
+
+div.dinspeu {
+	padding: 20px;
+	
+}
+
+
+div.peu0 {
+	width: 1200px;
+	color: c2c2c2;
+}
+
+
+div.peu1 {
+	//border-left: 1px solid #C00;
+	padding-left: 17px;
+	width: 20%;
+    float: left;
+	font-size: 16px;
+	
+
+
+}
+
+div.peu2 {
+	width: 30%;
+	float: left;
+	padding: 10px;
+	font-size: 16px;
+	
+}
+
+div.peu3 {
+	width: 30%;
+	float: right;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+
+
+div.submenu {
+	float: left;
+	width: 175px;
+	height: 400px;
+	background-color:#C0DAEE;
+	text-align: left;
+}
+
+div.dreta {
+	float: right;
+	width: 175px;
+	height: 400px;
+	background-color:#C0DAEE;
+	text-align: left;
+}
+
+
+
+
+
+div.text_peu {
+	float: left;
+	text-align: left;
+	height:50px;
+}
+ 
+
+
+div.div14 {
+	margin: 14px;
+	font-size:22;
+}
+
+div.pad10 {
+	
+	height: 113px;
+	overflow: hidden;
+	width: 304px;
+	line-height: 14px;
+	_height: 133px;
+	_width: 324px;
+}
+
+div.pad10b {
+	padding: 10px;
+	height: 113px;
+	overflow: hidden;
+	width: 304px;
+	line-height: 14px;
+	_height: 133px;
+	_width: 155px;
+}
+
+
+
+div.superSubmenu1 {
+	padding: 10px;
+	overflow: hidden;
+	_height: 100px;
+	_overflow: none;
+	
+}
+
+div.submenu1 {
+	float: left;
+	overflow: hidden;
+}
+
+
+div.titol_fitxa2 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #808080;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+div.titol_superfitxa2 {
+	font-size: 32px;
+	font-weight: 900;
+	color: black;
+	text-transform: uppercase;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+}
+
+img.fitxa2_ima {
+	width: 33%;
+}
+
+div.img-zoom-container {
+	float: left;
+	
+}
+
+
+div.fitxa2_text {
+	
+	
+	
+	overflow: hidden;
+
+	
+}
+
+div.fitxa2_cols {
+	float: left;
+	width: 49%;
+}
+
+img.fitxa2_ima_col {
+	height: 60px;
+}
+
+
+div.fitxa2_rel {
+	width: 50%;
+	float: right;
+}
+
+div.fitxa2_rel img, img.ima_submenu1 {
+	border: 1px solid #ad092f;
+}
+
+
+div.fitxa2_fam {
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #ad092f;
+	
+}
+
+div.fitxa2_fam_dins {
+	margin-top: 2px;
+	border-top: 1px solid #ad092f;
+	overflow: hidden;
+
+}
+
+
+div.fitxa2_fam_ima {
+	height: 220px;
+	overflow: hidden;
+}
+
+
+
+div.fitxa3_pdf {
+	text-align: right;	
+	vertical-align: middle;
+	margin-top: 10px;
+
+}
+
+
+img.fitxa3_ima {
+	height: 35px;
+	border: 1px solid #ad092f;
+	margin-top: -5px;
+	vertical-align: middle;
+}
+
+div.fitxa3_fam_ima, div.fam_news {
+	height: 220px;
+	overflow: hidden;
+}
+
+
+
+/************************************************************************************** FI Capcelera  */
+
+/* enllasos menus del peu */
+
+div.menuspeu {
+	font-size: 11px; 
+	padding: 10px;
+}
+div.menuspeu a {
+	color: #454545;
+}
+div.menuspeu a:hover {
+	color: white;
+}
+
+
+div.mapaweb2 {
+	height:20px;
+	margin: 0px;
+	text-align: left;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 8px;
+	text-transform: uppercase;
+	margin-botto: 10px;
+}
+
+div.back {
+	
+	margin: 0px;
+	text-align: left;
+	font-size: 14px;
+	padding-left: 20px;
+
+	text-transform: uppercase;
+	
+	float: right;
+}
+
+div.back img {
+	transform: rotate(180deg);
+}
+
+div.mapaweb1 {
+	height:20px;
+	width: 100%;
+	margin: 0px;
+	margin-top: 110px;
+	text-align: left;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-top: 8px;
+	text-transform: uppercase;
+	
+
+	
+	
+}
+
+
+
+
+
+div.mapaweb2 img {
+	vertical-align: middle;
+}
+
+
+a.mapaweb {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: black;
+	font-size: 18px;
+	
+
+}
+a:hover.mapaweb { 
+	color: b01820;
+	background-color: d5d5d5;
+	
+	
+}
+
+
+
+div.coshtml h1 {
+	height: 20px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 10px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/***********************************
+	*SUBMRNU4************/
+	
+
+div.not_sub4 {
+	overflow: hidden;
+	font-size: 14px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid red;
+	padding-bottom: 10px;
+	
+}
+
+div.not_sub4 h2 {
+	font-size: 28px;
+	font-weight:bold;
+	margin-top: 0px;
+}
+
+div.ima_sub4 {
+	width: 30%;
+	float: left;
+	
+	
+}
+
+div.ima_sub4 img {
+	width: 100%;
+}
+
+div.txt_sub4 {
+	width: 69%;
+	float: right;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*********************
+* SHOP - Botiga
+********************/
+div.shop-ima {
+	background-color: white;
+	overflow: hidden;
+
+}
+
+div.shop-total {
+
+	text-align: right;
+}
+
+div.shop-prod {
+	
+	height: 110px;
+	overflow: hidden;
+}
+
+
+div.shop-linia {
+	padding: 10px;
+	text-align: left;
+	overflow: hidden;
+
+}
+
+div.shop-linia span {
+	width: 100px;
+	float: left;
+}
+
+div.shop-linia h4 {
+	padding: 0px;
+	margin: 0px;
+}
+
+div.shop-eliminar {
+	float: right;
+	margin-top: 5px;
+}
+
+div.shop-eliminar input[type='submit'] {
+
+	
+}
+
+
+div.divform {
+	margin-left: 30px;
+	text-align: left;
+}
+
+
+/********************
+* PASSOS COMPRA BOTIGA
+*************************/
+div.login {
+	float: left;
+	width: 170px;
+	padding: 30px;
+}
+
+div.registre {
+	float: left;
+}
+
+textarea {
+	width: 90%;
+}
+
+
+div.news {	
+	float: left;
+	width: calc(25% - 23px);
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #ddd;
+	
+	margin: 10px;
+	margin-bottom: 200px;
+	
+	height: 200px;
+}
+
+div.news_ima {
+	margin: 10px;
+	height: 140px;	
+	overflow: hidden;
+}
+
+div.news img {
+	width: 100%;
+}
+
+
+div.ima_ombra1_f2 {	
+	float: left;
+	width: 25%;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #ddd;
+	margin-bottom: 80px;
+}
+
+
+div.ima_ombra1 {	
+	float: left;
+	width: 16.6%;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+div.ima_ombra2 {	
+	float: left;
+	width: 33.3%;
+	
+	margin: 0px;
+	padding: 0px;
+}
+
+div.ima_ombra3 {
+	float: left;
+	width: 50%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+div.ima4_ombra1 {	
+	float: left;
+	width: calc(16.6% - 7px);
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #AB2224;
+	margin-right: 5px;
+	margin-bottom: 5px
+	
+}
+
+div.ima4_ombra2 {	
+	float: left;
+	
+	width: calc(33.3% - 7px);
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #AB2224;
+	margin-right: 5px;
+	margin-bottom: 5px
+}
+
+div.ima4_ombra3 {
+	float: left;
+	width: calc(50% - 7px);
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #AB2224;
+	margin-right: 5px;
+	margin-bottom: 5px
+}
+
+
+
+
+div.ima_ombra1_f2 img, div.ima_ombra1 img, div.ima_ombra2 img, div.ima_ombra3 img, 
+div.ima4_ombra1 img, div.ima4_ombra2 img, div.ima4_ombra3 img {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+div.ima_ombra1_f2 img, div.ima_ombra1 img, div.ima_ombra2, div.ima_ombra3,
+div.ima4_ombra1 img, div.ima4_ombra2, div.ima4_ombra3 {
+	-webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+	-webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition:  background 1s;
+    transition: background 1s;
+}
+
+div.ima_ombra1_f2:hover, div.ima_ombra1:hover, div.ima_ombra2:hover, div.ima_ombra3:hover,
+ div.ima4_ombra1:hover, div.ima4_ombra2:hover, div.ima4_ombra3:hover {
+	background-color: #ac033a;
+}
+
+
+div.ima_ombra1_f2 img:hover, div.ima_ombra1 img:hover, div.ima_ombra2 img:hover, div.ima_ombra3 img:hover,
+div.ima4_ombra1 img:hover, div.ima4_ombra2 img:hover, div.ima4_ombra3 img:hover {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	opacity: 0.4;
+}
+
+div.ima_ombra1_f2:hover div.nom_ima, div.ima_ombra1:hover div.nom_ima, div.ima_ombra2:hover div.nom_ima, div.ima_ombra3:hover div.nom_ima,
+div.ima4_ombra1:hover div.nom_ima, div.ima4_ombra2:hover div.nom_ima, div.ima4_ombra3:hover div.nom_ima {
+	display: block;
+}
+
+div.nom_ima {
+	position: absolute;
+	
+	z-index: 10px;
+	
+	margin: 10px;
+	color: white;
+	display:none;
+	font-size: 12px;
+	
+}
+
+div.dins_ima, div.dins_ima_act {
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	cursor: pointer;
+
+	color: black;
+	
+}
+
+div.dins_ima a {
+	padding: 0px;
+	margin: 0px;	
+}
+
+div.dins_ima:hover, div.dins_ima_act {
+	cursor: pointer;
+}
+
+form input[type=text],
+form input[type=email],
+form input[type=password],
+form input[type=submit],
+form select,
+form textarea {
+	-moz-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	-webkit-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	-ms-transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	transition: background .2s ease-in-out, box-shadow .2s ease-in-out;
+	-webkit-appearance: none;
+	display: block;
+	border: 0;
+	padding: 0.5em; 
+	padding-left: 1em;
+	font-size: 1em;
+	border-radius: 8px;
+	border: solid 1px #71b4da;
+	background: #fff;
+	color: #555;
+	box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
+	opacity: 0.9;
+}
+
+form input[type=text]:focus,
+form input[type=email]:focus,
+form input[type=password]:focus,
+form select:focus,
+form textarea:focus {
+	background: #fafafa;
+	box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
+}
+
+input[type=text].obligat, textarea.obligat {
+	border: 1px solid black;	
+}
+
+
+
+td.linia_fila input {
+	width: 100%;
+}
+
+
+div.petit {
+		display: none;
+	}
+	
+	div.gran {
+	
+		overflow: hidden;
+		padding-bottom: 5px;
+	}
+	
+	
+	div.nozoom {
+		display: none;	
+	}
+
+div.resumportada {
+		padding: 20px;
+		font-size: 24px;
+	}
+	
+	
+
+/*** responsive ***/
+
+@media screen and (max-width : 1200px){
+
+	div.pagina {
+		width: 98%;
+	}
+
+
+    div.item_1, div.item_2, div.item_3{
+       
+    }
+
+
+	div.fitxa img {
+		width: 100%;
+	}
+	
+	div.fitxa2_cols {
+	
+	 width: 100%;
+	}
+
+	
+
+	div.fitxa2_rel {
+		margin-top: 10px;
+		width: 100%;
+		
+	}
+	
+	div.fitxa3_fam_ima {
+		height: 140px;
+		overflow: hidden;
+	}
+	
+	
+	
+	div.news {	
+		float: left;
+		width: calc(33.3% - 23px);
+		margin: 0px;
+		padding: 0px;
+		border: 1px solid #ddd;
+		
+		margin: 10px;
+		margin-bottom: 200px;
+		
+		height: 200px;
+	}
+
+	div.peu0 {
+		width: 100%;	
+	}
+	
+	div.peu1 {
+		display: none;	
+	}
+	
+	div.peu2 {
+		width: 45%;	
+		float: left;
+	}
+	
+	div.peu3 {
+		width: 45%;
+		float: right;
+	}
+	
+}
+
+
+
+@media screen and (max-width : 800px) {
+	
+	body {
+		margin: 0px;
+	}
+	
+	
+	div.pagina {
+		width: 90%;
+	}
+	
+	div.home_container {
+		width: 100%;
+		position: absolute;
+		
+	}
+    div.item_1, div.item_2, div.item_3{
+        width: 292px;
+		float: none;
+    }
+    
+	div.cap {
+		
+	}
+	
+	img.c {
+		float: left;
+	}
+	
+	img#primercc, img#telf {
+		display: block;
+	}
+
+
+	div.menu {
+		width: 85%;
+		margin: 0px;
+		z-index: 10000;
+		position:absolute;
+		margin-left: 5%;
+		min-height: 100px;
+		color: black;
+		font-size:18px;
+		margin-top: 2px;
+		
+		border-width: 1px;
+		border-style: solid;
+		border-color: #000000;
+		background-color: #fff;
+		opacity: 0.9;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+		filter: alpha(opacity=900);
+		
+	}
+	
+	div.botons {
+		float: right;
+		padding-top: 3px;
+		margin: 0px;
+		
+		width: 100%;
+	}
+	
+	
+	div.menu2, div#menu2 {
+  		display: none;	
+	}
+	
+	
+	div.petit {
+		display: block;
+	}
+	
+	div.nozoom {
+		display: block;	
+	}
+	
+	div.nozoom img {
+		width: 100%;
+	}	
+	
+	div.img-zoom-container {
+		display: none;	
+	}
+	
+	img.imafitxa {
+		width: 292px;
+	}
+	
+	div.dins {
+		margin: 0px;
+		width: 100%;
+	}
+	
+	img.set1, img.set2 {
+		display: none;	
+	}
+
+	div.mapaweb1 {
+		margin-top: 80px;	
+	}
+
+	div.mapaweb1 div, div.mapaweb2, div.breulogo {
+		display: none;	
+	}
+	
+	div.back {
+		display: block;
+	}
+	
+	div.breumapa {
+		display: block;	
+	}
+	
+	div.divform {
+		margin-left: 10px;
+	}
+	
+	div.login {
+		padding: 10px;
+	}
+	
+	div.menuscap {
+		display: none;	
+
+	}
+	
+	
+	td.breu {
+		display: none;
+	}
+	
+	a.mapaweb, td.titol_fitxa {
+		display: none;
+	}
+	
+    
+	img.foto_filet, div.ima_ombra {
+		width: 100%;
+		-webkit-transition:all 1s ease;
+		-moz-transition:all 1s ease;
+		-o-transition:all 1s ease;
+		transition:all 1s ease;
+	}
+	
+	div.ima_ombra1 {	
+		width: 98%;
+		margin: 1%;
+		
+	}
+
+	div.ima_ombra2, div.ima_ombra3 {
+		width: 98%;
+		margin: 1%;
+		
+
+	}
+	
+	div.ima4_ombra1, div.ima4_ombra2, div.ima4_ombra3 {
+		width: 47%;
+		margin: 1%;
+	}
+	
+	div.news {	
+		float: left;
+		width: calc(50% - 23px);
+		margin: 0px;
+		padding: 0px;
+		border: 1px solid #ddd;
+		
+		margin: 10px;
+		margin-bottom: 200px;
+		
+		height: 200px;
+	}
+	
+	
+	div.peu0 {
+		width: 100%;	
+	}
+	
+	
+	div.peu1 {
+		display: none;	
+	}
+	
+	div.peu2 {
+		width: 90%;	
+		text-align: left;
+		padding: 0px;
+		
+	}
+	div.peu2 div {
+		
+		padding-left: 60px;
+		float: left;
+	}
+	
+	div.peu3 {
+		width: 90%;
+		text-align: left;
+		float: left;
+		padding: 0px;
+	}
+	
+	
+}
+
+/*
+ calendari
+
+*/
+
+
+
+
+
+.dies_sense {
+	background-color: #E9E9E9;
+}
+.dies_sense2 {
+	background-color: #E9E9E9;
+	height: 40px;
+	width: 40px;
+}
+.dies_amb {
+
+	border: 1px solid #BEBEBE;
+}
+.dies_amb2 {
+	background-color: #FFD7D7;
+
+	height: 40px;
+	width: 40px;
+}
+.dies_res {
+
+}
+.foto {
+	margin-right: 20px;
+}
+.dies_res2 {
+
+	height: 40px;
+	width: 40px;
+}
+
+
+
+/* Text dels botons MENUDALT I EL MENUDALT2 */
+
+a.down {
+ color: #71b4da;
+}
+
+a.menuDalt, a.menuDalt2 {
+	text-decoration: none;
+	font-size: 16px;
+	color: #000;
+	
+}
+
+
+a.menuDalt_act {
+	text-decoration: none;
+	font-size: 16px;
+	color: #red;	
+	
+}
+
+div.menubase li a, div.menubase li.menuDalt2_act li a {
+	color: #828282;
+}
+
+div.menubase li.menuDalt2_act a, div.menubase li.menuDalt2_act li a:hover {
+	text-decoration: none;
+	font-size: 11px;
+	color: #fff;
+}
+
+/******************
+* NOTICIES
+****************/
+td.noticia {
+	vertical-align: top;
+}
+
+td.noticia_sobre {
+	cursor: pointer;
+}
+
+div.cosnoticia {
+	padding: 5px; margin-top: 0px; width: 300px;
+}
+
+/* ------------------------------------------------------- DIVS AGENDA */
+
+
+div.text_amagatP{
+	line-height:15px;
+	display:none; 
+	width:95%;
+	border: 0px;
+	margin-left:10px;
+	padding:5px;
+}
+
+div.text_visibleP{
+	line-height:15px;
+	display:block; 
+	width:95%;
+	border: 0px;
+	margin-left:10px;
+	padding:5px;
+}
+ 
+ /*  -------------------------------------------------------  MENUS  */
+
+
+
+
+/****************************************************************** Capcelera */
+
+/* LLISTA DEL MENU DALT 1 BOTONS */
+div.menuscap{
+	margin-left: -30px; 
+	margin-top: 20px;
+	width: 100%;
+	overflow: hidden; 
+	text-align: right;
+	font-size: 16px;
+	bottom: 5px;
+	position: absolute;
+}
+a.menuscap{
+	margin-left: 20px; 
+	
+}
+
+
+
+
+
+
+
+div.menu {
+	position: fixed;
+	float: right;
+	z-index: 10;
+}
+
+
+div.menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+div.menu li.menuDalt_act {
+	height: 65px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	margin: 0px;
+	line-height: 90px;
+	
+	color: #990000;
+	background-color: #fbfbfb;
+}
+
+div.menu li {
+	height: 65px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	margin: 0px;
+	line-height: 90px;
+	
+}
+
+
+div.menubase ul {
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+div.menubase li {
+	line-height: 22px;
+	float: left;
+	height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	margin: 0px;
+}
+
+
+li.menuDalt2_act {
+	height: 22px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 0px;
+	margin: 0px;
+	line-height: 30px;
+	
+	color: #990000;
+	background-color: #0f0f0f;
+}
+
+
+
+/* LLISTA DEL MENU DALT 2  */
+
+
+
+div.ima_ombra {
+
+
+}
+
+div.desplega {
+	padding: 15px;
+	border-bottom: 1px solid #808080;
+}

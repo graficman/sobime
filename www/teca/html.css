@@ -1,0 +1,56 @@
+﻿
+.fuente28 {
+	font-size: 28px;
+	color:#FFF;
+	font-weight:bold;
+}
+.fuente20 {
+	font-size: 20px;
+	color:#FFF;
+	font-weight:bold;
+}
+.fuente11 {
+	font-size: 11px;
+}
+.fuente32 {
+	font-size: 32px;
+}
+.fuente44 {
+	font-size: 44px;
+	font-weight:bold;
+	
+	
+}
+.fuente18 {
+	font-size: 18px;
+	font-weight:bold;
+
+	
+}
+.caixa {
+	text-align: justify;
+}
+
+.font20portada {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	font-weight: bold;
+	line-height:24px;
+}
+.font20portada:link {
+	text-decoration: none;
+	color: #FFF;
+}
+a.font20portada:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+.font20portada:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+.font20portada:active {
+	text-decoration: none;
+	color: #FFF;
+}

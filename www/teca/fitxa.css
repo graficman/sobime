@@ -1,0 +1,263 @@
+/************************************************************ SUBMENU 1  ***********************************/
+
+div.menuesquerra_tot {
+	float: left;
+}
+
+div.menuesquerra_cap {
+	margin-top: 20px;
+	background-image: url(/imatges/icones/solapaSup.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	width: 170px;
+	height: 43px;
+	text-align: left;
+	
+}
+
+div.menuesquerra_titol {
+	padding-left: 5px;
+	padding-top: 1px;
+	line-height: 21px;
+	font-size: 18px;
+	color:#FFF;
+	width: 150px;
+	overflow-x: hidden;
+}
+
+div.menuesquerra_peu {
+	background-image: url(/imatges/icones/solapabaix.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	width: 170px;
+	height: 43px;
+}
+
+div.menuesquerra {
+	
+	width: 170px;
+	background-image: url(/imatges/icones/pixel_gris.gif);
+	height: 400px;
+	text-align: left;
+	
+	padding: 0px;
+		
+}
+
+
+div.menuesquerra ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+}
+
+div.menuesquerra li {
+	padding-left: 0px;
+	margin: 0px;
+	text-align: left;
+	width: 120px;
+	
+}
+
+
+
+
+div.imatgesSubmenu1 {
+	float: right;
+	width: 815px;
+	overflow: hidden;
+	text-align: left;
+	margin-top: 30px;
+}
+
+div.fitxa {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	
+}
+
+div.fitxaResum {
+	padding-right:20px;
+}
+
+.imafitxa  {
+	text-align: center;
+}
+.titol_fitxa {
+	color: #808080;
+	font-size: 24px;
+	text-align: left;
+	line-height: 31px;
+	width: 100%;
+	
+	}
+
+.titol_Desc {
+	color: #808080;
+	font-size: 24px;
+	text-align: left;
+	padding-left:20px;
+	
+		}
+		
+.titol_Cap {
+	color: #808080;
+	font-size: 22px;
+	text-align: left;
+	line-height: 31px;
+	width: 100%;
+	padding-left:50px;
+	}
+.titol_taula_columna {
+	font-weight: bold;
+	
+}
+
+.titolguia {
+	font-size: 18px;
+	font-variant: normal;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-top-width: 0px;
+	border-top-style: solid;
+}
+
+a.fotoSubMenu2 {
+	float: left;
+	margin-right: 10px;
+}
+
+div.fitxaSubMenu2 {
+	overflow: hidden;
+	
+}
+
+.linia_fila {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFFFF;
+}
+
+
+
+
+/************************************ GALERIA 5 - Sumenu 4 *********************/
+
+div.galeria5 {
+	
+	background-image: url(/imatges/icones/f2.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	background-color: white;
+	padding: 8px;
+	padding-top: 5px;
+}
+
+div.galeria5 a {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+div.titolesquerra {
+	height: 20px;
+	
+	padding-left: 10px;
+	line-height: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+div.titolesquerrafitxa {
+	height: 20px;
+	padding-left: 10px;
+	line-height: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-image: url(/imatges/icones/f6.gif);
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+
+
+div.menuesq {
+	height: 20px;
+	padding-left: 10px;
+	line-height: 20px;
+	font-size:16px;
+}
+
+div.menuesq_act {
+	height: 40px;
+	padding-left: 10px;
+	line-height: 40px;
+	background-color: white;
+	background-image: url(/imatges/icones/f3.gif);
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+div.menuesq_sobre {
+	height: 20px;
+	padding-left: 10px;
+	line-height: 20px;
+	background-image: url(/imatges/icones/f7.gif);
+	background-position: center right;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+/*****************
+* FORUM
+****************/
+
+div.titol_forum {
+	height: 30px;
+	padding-left: 12px;
+	line-height: 21px;
+}
+
+.missatgeForum {
+	font-size:14px;
+	padding: 5px 0px 5px 0px; 
+	width: 100%;
+	overflow: hidden;
+}
+
+.missatgeForum .capcelera {
+	padding: 4px 4px 4px 4px;
+	border-top: 1px solid #ececec;
+	height: 20px;
+	overflow: hidden;
+}
+
+div.usuari {
+	float: left;
+}
+
+div.data {
+	float: right;
+}
+
+
+.missatgeForum .text {
+	padding: 4px 4px 4px 4px;
+	overflow: hidden;
+}
+
+.missatgeForum .opcio {
+	float: right;
+	
+	
+	
+/***********************************
+	*SUBMRNU4************/
+	
+div.news1 {
+	padding: 10px 10px 10px 10px;
+	
+}
