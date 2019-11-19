@@ -76,7 +76,7 @@
     
     
     <access origin="*"/>
-    <allow-navigation href="https://*" />
+    <allow-navigation href="*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
